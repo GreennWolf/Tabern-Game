@@ -55,55 +55,175 @@ Este directorio contiene las especificaciones completas de todas las clases del 
 
 ## Restricciones Raza-Clase
 
-### Enanos (NO CREEN EN MAGIA/DEIDADES)
+Cada raza tiene restricciones lógicas basadas en su cultura, fisiología y lore.
 
-❌ **PROHIBIDO:**
-- Mago
-- Hechicero
-- Druida
-- Clérigo
-- (Cualquier clase que use magia o sirva a deidades)
+---
 
-⚠️ **RARO PERO POSIBLE:**
-- Paladín (si es honor cultural, NO magia divina) - 1% probabilidad
+### 👤 HUMANO
+
+✅ **SIN RESTRICCIONES** - La raza más versátil
+- Pueden ser cualquier clase sin penalización
+- Adaptabilidad es su fortaleza racial
+
+---
+
+### ⚒️ ENANO (NO CREEN EN MAGIA/DEIDADES)
+
+❌ **PROHIBIDO (0%):**
+- Mago, Hechicero, Clérigo, Druida (NO creen en magia/deidades)
+- Bardo (cultura seria, no son artistas refinados)
+
+⚠️ **MUY RARO (1%):**
+- Paladín (honor cultural extremo, NO magia divina)
+- Monje (disciplina posible pero contra cultura)
 
 ✅ **COMÚN:**
 - Guerrero (40%)
-- Artífice (25%) - magia mecánica, no "real"
+- Artífice (25%) - "ingeniería arcana" aceptable, NO magia
 - Pícaro (15%)
-- Bárbaro (10%)
+- Bárbaro (10%) - enanos renegados
 - Monje (5%)
-- Artesano (4%)
+- Guardabosques (4%)
 
-### Otras Restricciones Culturales
+**LORE:** Cultura de forja, artesanía, honor. Desprecian magia "débil". El arte es funcional, no decorativo.
 
-**Elfos del Bosque:**
-- ❌ Bárbaro (muy raro, 1%)
-- ✅✅✅ Druida, Guardabosques, Mago (muy común)
+---
 
-**Elfos de la Noche:**
-- ❌ Clérigo de luz (religioso)
-- ❌ Paladín (generalmente)
-- ✅✅✅ Pícaro, Monje, Guardabosques
+### 🌲 ELFO DEL BOSQUE
 
-**Minotauros:**
-- ❌ Mago, Hechicero (raro, 2%)
-- ✅✅✅ Guerrero, Bárbaro (muy común, 70%)
+❌ **PROHIBIDO (0-1%):**
+- Bárbaro (opuesto a refinamiento élfico)
+- Artífice (tecnología vs naturaleza)
 
-**Centauros:**
-- ❌ Pícaro (deshonroso, 1%)
-- ✅✅✅ Druida, Guardabosques, Monje
+⚠️ **RARO (3-5%):**
+- Pícaro (considerado deshonroso)
+- Clérigo (prefieren druidas, conexión directa con naturaleza)
+- Guerrero (prefieren guardabosques)
 
-**Dracónidos:**
-- Cualquier clase posible (raza versátil)
-- Hechicero muy común (magia innata dracónica)
+✅ **MUY COMÚN:**
+- Druida (40%)
+- Mago (30%)
+- Guardabosques (25%)
 
-**Duendes:**
-- ❌ Paladín, Guerrero (raro, 2%)
-- ✅✅✅ Pícaro (60%), Bardo (20%)
+**LORE:** Refinados, longevos, conectados con naturaleza. Rechazan tecnología y comportamiento "bajo".
 
-**Humanos:**
-- ✅ Cualquier clase (más versátiles)
+---
+
+### 🌙 ELFO DE LA NOCHE
+
+❌ **PROHIBIDO (0%):**
+- Paladín (opuesto a cultura oscura)
+- Clérigo de Luz (religión opuesta)
+- Bardo (sigilo vs llamar atención)
+
+⚠️ **RARO (2-5%):**
+- Druida (solo círculos oscuros/lunares)
+- Guerrero (prefieren sigilo)
+- Hechicero (posible pero raro)
+- Bárbaro (contra cultura disciplinada)
+
+✅ **MUY COMÚN:**
+- Pícaro (40%)
+- Monje (25%)
+- Guardabosques (15%)
+
+**LORE:** Cultura de sombras, sigilo, pragmatismo. Rechazan atención y luz.
+
+---
+
+### 🎭 DUENDE
+
+❌ **PROHIBIDO (0-1%):**
+- Guerrero (demasiado pequeños para combate frontal)
+- Paladín (imposible mantener código sagrado)
+- Bárbaro (físicamente imposible)
+- Monje (disciplina vs naturaleza traviesa)
+
+⚠️ **MUY RARO (2-5%):**
+- Clérigo (no son devotos, demasiado traviesos)
+- Guardabosques (posible pero raro)
+- Druida (prefieren trucos a naturaleza seria)
+
+✅ **MUY COMÚN:**
+- Pícaro (60%)
+- Bardo (20%)
+- Mago (10%)
+- Hechicero (5%)
+- Artífice (4%)
+
+**LORE:** Pequeños, traviesos, ágiles. Viven del engaño y travesuras. Disciplina y honor no son lo suyo.
+
+---
+
+### 🐂 MINOTAURO
+
+❌ **PROHIBIDO (0-1%):**
+- Mago (cultura anti-intelectual)
+- Hechicero (rechazan magia débil)
+- Druida (separados de naturaleza, viven en laberintos)
+- Bardo (no son artistas)
+- Pícaro (demasiado grandes para sigilo, honor guerrero)
+
+⚠️ **RARO (2-5%):**
+- Clérigo (solo deidades de guerra/fuerza)
+- Monje (disciplina posible pero raro)
+- Guardabosques (más guerreros que exploradores)
+- Artífice (algunos forjan armas)
+
+✅ **MUY COMÚN:**
+- Guerrero (45%)
+- Bárbaro (40%)
+
+**LORE:** Cultura de fuerza, honor de batalla, territorialidad. Desprecian astucia y magia. El combate directo es todo.
+
+---
+
+### 🐉 DRACÓNIDO
+
+✅ **SIN RESTRICCIONES GENERALES** (versátiles por linaje)
+
+**PERO depende del LINAJE:**
+
+**Metálicos (Oro, Plata, Bronce):**
+- ✅✅✅ Paladín, Guerrero, Clérigo de bien
+- ❌ Pícaro asesino (deshonroso)
+- ⚠️ Bárbaro (contra honor)
+
+**Cromáticos (Rojo, Negro, Verde, Azul, Blanco):**
+- ✅✅✅ Hechicero, Guerrero, Bárbaro
+- ❌ Paladín (opuesto a naturaleza malvada)
+- ⚠️ Clérigo (solo deidades oscuras)
+
+**Distribución General:**
+- Hechicero (30%) - magia innata dracónica
+- Guerrero (25%)
+- Paladín (15%) - metálicos
+- Resto: distribuido
+
+**LORE:** Linaje dracónico define todo. Honor vs poder, bien vs mal.
+
+---
+
+### 🐴 CENTAURO
+
+❌ **PROHIBIDO (0%):**
+- Pícaro (deshonroso, imposible sigilo por tamaño)
+- Artífice (nómadas, rechazan tecnología)
+
+⚠️ **RARO (2-5%):**
+- Bárbaro (son sabios, no salvajes - pero tribus guerreras existen)
+- Clérigo (prefieren druidas)
+- Mago (algunos sabios pero raro)
+- Hechicero (muy raro)
+- Bardo (posible pero poco común)
+
+✅ **MUY COMÚN:**
+- Druida (30%)
+- Guardabosques (25%)
+- Monje (15%)
+- Guerrero (10%) - guerreros tribales
+
+**LORE:** Nómadas sabios, conexión con naturaleza, honor tribal. Rechazan tecnología y deshonra.
 
 ---
 
